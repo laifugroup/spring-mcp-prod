@@ -1,0 +1,41 @@
+2025-05-22T21:12:40.907+08:00  INFO 17392 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Starting SpringMcpProdApplication using Java 21.0.5 with PID 17392 (D:\workspace-micronaut-kotlin\spring-mcp-prod\build\classes\java\main started by jilijili in D:\workspace-micronaut-kotlin\spring-mcp-prod)
+2025-05-22T21:12:40.917+08:00  INFO 17392 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-22T21:12:45.293+08:00  INFO 17392 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-22T21:12:45.498+08:00  INFO 17392 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-22T21:12:45.498+08:00  INFO 17392 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-22T21:12:45.498+08:00  INFO 17392 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-22T21:12:45.498+08:00  INFO 17392 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-22T21:12:45.839+08:00 ERROR 17392 --- [spring-mcp-prod] [pool-2-thread-1] i.m.s.t.StdioServerTransportProvider     : Error processing inbound message
+
+com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: was expecting closing quote for a string value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:641) ~[jackson-core-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._finishString2(ReaderBasedJsonParser.java:2186) ~[jackson-core-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._finishString(ReaderBasedJsonParser.java:2173) ~[jackson-core-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.getValueAsString(ReaderBasedJsonParser.java:338) ~[jackson-core-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:262) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:454) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:32) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4931) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3851) ~[jackson-databind-2.18.3.jar:2.18.3]
+	at io.modelcontextprotocol.spec.McpSchema.deserializeJsonRpcMessage(McpSchema.java:157) ~[mcp-0.10.0.jar:0.10.0]
+	at io.modelcontextprotocol.server.transport.StdioServerTransportProvider$StdioMcpSessionTransport.lambda$startInboundProcessing$4(StdioServerTransportProvider.java:217) ~[mcp-0.10.0.jar:0.10.0]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.7.5.jar:3.7.5]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.7.5.jar:3.7.5]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-05-22T21:12:46.188+08:00  INFO 17392 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Started SpringMcpProdApplication in 7.591 seconds (process running for 12.56)
+2025-05-22T21:14:57.202+08:00  INFO 23996 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Starting SpringMcpProdApplication using Java 21.0.5 with PID 23996 (D:\workspace-micronaut-kotlin\spring-mcp-prod\build\classes\java\main started by jilijili in D:\workspace-micronaut-kotlin\spring-mcp-prod)
+2025-05-22T21:14:57.217+08:00  INFO 23996 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-22T21:15:00.678+08:00  INFO 23996 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-22T21:15:01.126+08:00  INFO 23996 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-22T21:15:01.126+08:00  INFO 23996 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-22T21:15:01.141+08:00  INFO 23996 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-22T21:15:01.141+08:00  INFO 23996 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-22T21:15:02.177+08:00  INFO 23996 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Started SpringMcpProdApplication in 6.93 seconds (process running for 9.702)

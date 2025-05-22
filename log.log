@@ -1,0 +1,8 @@
+2025-05-22T21:05:58.890+08:00  INFO 16492 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Starting SpringMcpProdApplication using Java 21.0.5 with PID 16492 (D:\workspace-micronaut-kotlin\spring-mcp-prod\build\classes\java\main started by jilijili in D:\workspace-micronaut-kotlin\spring-mcp-prod)
+2025-05-22T21:05:58.890+08:00  INFO 16492 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-22T21:06:02.636+08:00  INFO 16492 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-22T21:06:02.937+08:00  INFO 16492 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-22T21:06:02.937+08:00  INFO 16492 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-22T21:06:02.937+08:00  INFO 16492 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-22T21:06:02.952+08:00  INFO 16492 --- [spring-mcp-prod] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-22T21:06:04.299+08:00  INFO 16492 --- [spring-mcp-prod] [main] c.spring.mcp.SpringMcpProdApplication    : Started SpringMcpProdApplication in 7.336 seconds (process running for 11.934)

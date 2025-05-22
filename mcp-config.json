@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weather-service": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "D:/workspace-micronaut-kotlin/spring-mcp-prod/build/libs/spring-mcp-prod-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}
