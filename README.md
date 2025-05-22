@@ -27,6 +27,9 @@ tare如图配置：
 
 ![tare配置界面](tare_mcp_json.png)
 
+提问NY的天气
+![提问NY的天气](weather2.png)
+
 疑问：
 0. 和controller完全没有任何关系
 1. 要加载这个插件，本地用户必须安装java环境
