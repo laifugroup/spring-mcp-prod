@@ -1,5 +1,12 @@
 # spring-mcp-prod
 
+#  编译项目
+
+```shell
+gradle assemble
+```
+输出 spring-mcp-prod-0.0.1-SNAPSHOT.jar
+
 
 # mcp-config.json 配置到tare的自定义mcp配置
 ```json
